@@ -1,0 +1,37 @@
+#*.txt
+*.pdf
+*.tmp
+*.png
+/local/
+*.DS_Store
+*.mat
+
+# don't ignore important .txt and .csv files
+!LICENSE.txt
+
+# running files
+*.pyc
+*.py~
+.~lock*
+*.swp
+
+# Python cache
+*__pycache__/
+*.cache
+*.ipynb_checkpoints/
+
+# virtual enviroment
+env/
+bin/
+etc/
+lib/
+lib64
+share/
+pyvenv.cfg
+.vscode
+
+# downloads
+*.gz
+
+# third party
+third-party
