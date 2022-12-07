@@ -44,7 +44,7 @@
                   "Maximum stoichiometry": 0.75668,
                   "Maximum concentration [mol.m-3]": 29730,
                   "Diffusivity activation energy [J.mol-1]": 30000,
-                  "Reaction rate activation energy [J.mol-1]": 55000
+                  "Reaction rate constant activation energy [J.mol-1]": 55000
             },
             "Positive electrode": {
                   "Particle radius [m]": 4.6e-06,
@@ -61,7 +61,7 @@
                   "Maximum stoichiometry": 0.96210,
                   "Maximum concentration [mol.m-3]": 46200,
                   "Diffusivity activation energy [J.mol-1]": 15000,
-                  "Reaction rate activation energy [J.mol-1]": 35000 
+                  "Reaction rate constant activation energy [J.mol-1]": 35000 
             },
             "Separator": {
                   "Thickness [m]": 2e-05,
