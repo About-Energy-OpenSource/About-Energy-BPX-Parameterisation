@@ -26,7 +26,7 @@ To install the requirements on Linux/Mac OS use the following terminal commands,
 
 1. Clone the repository
 ```bash
-https://github.com/About-Energy/XXX.git
+https://github.com/About-Energy-OpenSource/XXX.git
 ```
 2. Change into the `XXX` directory 
 ```bash
@@ -50,7 +50,7 @@ To install the requirements on Windows use the following terminal commands, repl
 
 1. Clone the repository
 ```bash
-https://github.com/About-Energy/XXX.git
+https://github.com/About-Energy-OpenSource/XXX.git
 ```
 2. Change into the `XXX` directory 
 ```bash
