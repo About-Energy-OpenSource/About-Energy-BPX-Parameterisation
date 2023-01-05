@@ -1,6 +1,2 @@
-DFO-LS
-matplotlib
-numpy
-pandas
-pybamm==22.7
-scipy
+pybamm==22.12
+

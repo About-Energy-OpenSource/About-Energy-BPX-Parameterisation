@@ -14,10 +14,13 @@ About:Energy develops battery parameter sets for physics-based models by combini
 
 For the [LFP cell](LFP), we note some discrepancies in voltage and capacity prediction at higher rates in the limit of low state-of-charge (SOC) - these are attributed to the use of a 1D+1D DFN model, which is not capable of accounting for inhomogeneity within the cylindrical cell. Additionally, by comparison to an [NMC](NMC) positive electrode, the [LFP](LFP) positive electrode material is relatively less well described by the Fick's law diffusion and Butler-Volmer equation approximations defined by the basic BPX standard. A more refined model in conjunction with extensions to the BPX standard could widen the applicability of this parameter set.
 
-The simulations use the package [PyBaMM (Python Battery Mathematical Modelling)](https://www.pybamm.org/).
+The simulations use the package [PyBaMM (Python Battery Mathematical Modelling)](https://www.pybamm.org/), with the parameters are imported directly from the BPX JSON file using the method:
+```bash
+pybamm.ParameterValues.create_from_bpx("XXX")
+```
 
 ## 🚀 Installation
-In order to run the notebooks in this repository, you will need to install a number of packages. We recommend installing within a [virtual environment](https://docs.python.org/3/tutorial/venv.html) in order to not alter any Python distribution files on your machine.
+In order to run the notebooks in this repository, you will need to install [PyBaMM](https://www.pybamm.org/) (version 22.12 or newer). We recommend installing within a [virtual environment](https://docs.python.org/3/tutorial/venv.html) in order to not alter any Python distribution files on your machine.
 
 PyBaMM is available on GNU/Linux, MacOS and Windows. For more detailed instructions on how to install PyBaMM, see [the PyBaMM documentation](https://pybamm.readthedocs.io/en/latest/install/GNU-linux.html#user-install).
 

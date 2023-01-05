@@ -1,6 +1,0 @@
-DFO-LS
-matplotlib
-numpy
-pandas
-pybamm==22.7
-scipy

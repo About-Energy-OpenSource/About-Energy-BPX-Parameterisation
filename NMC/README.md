@@ -11,10 +11,13 @@ The notebook [validation-plots](validation-plots.ipynb) shows comparisons betwee
 [example-simulate-experiment](example-simulate-experiment.ipynb) demonstrates how to use the parameterised model to run your own simulations.\
 [parameter_plot](parameter_plot.ipynb) plots the functional parameters, and converts appropriate parameters from PyBaMM to BPX format.
 
-The simulations use the package [PyBaMM (Python Battery Mathematical Modelling)](https://www.pybamm.org/).
+The simulations use the package [PyBaMM (Python Battery Mathematical Modelling)](https://www.pybamm.org/), with the parameters are imported directly from the BPX JSON file using the method:
+```bash
+pybamm.ParameterValues.create_from_bpx("XXX")
+```
 
 ## 🚀 Installation
-In order to run the notebooks in this repository, you will need to install a number of packages. We recommend installing within a [virtual environment](https://docs.python.org/3/tutorial/venv.html) in order to not alter any Python distribution files on your machine.
+In order to run the notebooks in this repository, you will need to install [PyBaMM](https://www.pybamm.org/) (version 22.12 or newer). We recommend installing within a [virtual environment](https://docs.python.org/3/tutorial/venv.html) in order to not alter any Python distribution files on your machine.
 
 PyBaMM is available on GNU/Linux, MacOS and Windows. For more detailed instructions on how to install PyBaMM, see [the PyBaMM documentation](https://pybamm.readthedocs.io/en/latest/install/GNU-linux.html#user-install).
 
@@ -47,7 +50,7 @@ To install the requirements on Windows use the following terminal commands, repl
 
 1. Clone the repository
 ```bash
-https://github.com/About-Energy/XXX.git
+https://github.com/About-Energy-OpenSource/XXX.git
 ```
 2. Change into the `XXX` directory 
 ```bash
